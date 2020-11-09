@@ -31,9 +31,20 @@
       </nav>
     </header>
 
-    <main id="main">
-      <section id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dz1n485vYlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <main class="container" id="main">
+      <section class="row" id="product">
+        <article class="col-sm-12 col-md-6">
+          <iframe class="w-100" id="video" height="315" src="https://www.youtube.com/embed/dz1n485vYlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+        <article class="col-sm-12 col-md-6" id="contacto">
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <div class="form-group">
+              <label for="email">Envia tu correo para contactarte</label>
+              <input type="email" class="form-control" id="email"  placeholder="Ingresa tu e-mail">
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </form>
+        </article>
       </section>
 
     </main>
