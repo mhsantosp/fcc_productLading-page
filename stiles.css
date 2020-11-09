@@ -1,8 +1,4 @@
-header {
-  height: 70px;
-}
-
-#header nav a#name-inc {
+header nav a#name-inc {
   width: 150px;
   display: flex;
 }
@@ -22,9 +18,18 @@ header {
   }
 
   #header nav ul#menu li {
-    min-width: 100%;
+    /* min-width: 100%;
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
   }
+}
+
+section#video {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  padding: 15px;
 }
