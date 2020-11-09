@@ -1,0 +1,30 @@
+header {
+  height: 70px;
+}
+
+#header nav a#name-inc {
+  width: 150px;
+  display: flex;
+}
+
+#header nav a span{
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+@media (max-width: 575.98px) {
+  #header nav ul {
+    margin: auto;
+  }
+
+  #header nav ul#menu li {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
